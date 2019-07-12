@@ -1,0 +1,50 @@
+{
+  "name": "mongodb_flutter",
+  "version": "0.0.1",
+  "description": "Mongodb Flutter",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amondnet/mongodb_flutter.git"
+  },
+  "keywords": [
+    "mongodb",
+    "flutter"
+  ],
+  "author": "amond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amondnet/mongodb_flutter/issues"
+  },
+  "homepage": "https://github.com/amondnet/mongodb_flutter#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "@dietfriends/github-label-presets": "^1.0.0",
+    "commitizen": "^3.1.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "cz-customizable": "^6.2.0",
+    "husky": "^2.4.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "config/path/to/my/config.js"
+    }
+  }
+}
