@@ -1,17 +1,17 @@
 PODS:
   - Flutter (1.0.0)
-  - mongodb_mobile (0.0.1):
+  - mongodb_flutter (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `.symlinks/flutter/ios-release`)
-  - mongodb_mobile (from `.symlinks/plugins/mongodb_mobile/ios`)
+  - mongodb_mobile (from `.symlinks/plugins/mongodb_flutter/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: ".symlinks/flutter/ios-release"
-  mongodb_mobile:
-    :path: ".symlinks/plugins/mongodb_mobile/ios"
+  mongodb_flutter:
+    :path: ".symlinks/plugins/mongodb_flutter/ios"
 
 SPEC CHECKSUMS:
   Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a

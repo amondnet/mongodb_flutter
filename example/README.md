@@ -1,6 +1,6 @@
-# mongodb_mobile_example
+# mongodb_flutter_example
 
-Demonstrates how to use the mongodb_mobile plugin.
+Demonstrates how to use the mongodb_flutter plugin.
 
 ## Getting Started
 

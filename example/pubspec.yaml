@@ -1,5 +1,5 @@
-name: mongodb_mobile_example
-description: Demonstrates how to use the mongodb_mobile plugin.
+name: mongodb_flutter_example
+description: Demonstrates how to use the mongodb_flutter plugin.
 publish_to: 'none'
 
 environment:
@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  mongodb_mobile:
+  mongodb_flutter:
     path: ../
 
 # For information on the generic Dart part of this file, see the

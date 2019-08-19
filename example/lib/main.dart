@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:mongodb_mobile/mongodb_flutter.dart';
+import 'package:mongodb_flutter/mongodb_flutter.dart';
 
 void main() => runApp(MyApp());
 

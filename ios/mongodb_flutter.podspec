@@ -2,13 +2,13 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'mongodb_mobile'
+  s.name             = 'mongodb_flutter'
   s.version          = '0.0.1'
-  s.summary          = 'Mongodb Mobile'
+  s.summary          = 'Mongodb Mobile for Flutter'
   s.description      = <<-DESC
 Mongodb Mobile
                        DESC
-  s.homepage         = 'https://github.com/amondnet/flutter_mongodb_mobile'
+  s.homepage         = 'https://github.com/amondnet/mongodb_flutter'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Minsu Lee' => 'amond@amond.dev' }
   s.source           = { :path => '.' }

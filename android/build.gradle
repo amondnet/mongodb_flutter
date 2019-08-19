@@ -1,4 +1,4 @@
-group 'kr.dietfriends.mongodb_mobile'
+group 'kr.dietfriends.mongodb_flutter'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -40,5 +40,6 @@ android {
 }
 
 dependencies {
+    implementation 'org.mongodb:stitch-android-sdk:4.5.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }

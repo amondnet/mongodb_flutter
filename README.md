@@ -1,6 +1,6 @@
-# mongodb_mobile
+# mongodb_flutter
 
-Mongodb Mobile
+Mongodb Mobile for Flutter
 
 ## Getting Started
 

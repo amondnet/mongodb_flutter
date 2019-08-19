@@ -3,7 +3,7 @@ import UIKit
 
 public class SwiftMongodbMobilePlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "mongodb_mobile", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "mongodb_flutter", binaryMessenger: registrar.messenger())
     let instance = SwiftMongodbMobilePlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
